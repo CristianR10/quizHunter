@@ -1,0 +1,33 @@
+$color-1: #082032;
+$color-2: #334756;
+$color-3: #FF4C29;
+
+// Color 1
+$color-1-50: lighten($color-1, 20%);
+$color-1-100: lighten($color-1, 16%);
+$color-1-200: lighten($color-1, 12%);
+$color-1-300: lighten($color-1, 8%);
+$color-1-400: darken($color-1, 5%);
+$color-1-500: darken($color-1, 10%);
+$color-1-600: darken($color-1, 15%);
+$color-1-800: darken($color-1, 20%);
+
+// Color 2
+$color-2-50: lighten($color-2, 20%);
+$color-2-100: lighten($color-2, 16%);
+$color-2-200: lighten($color-2, 12%);
+$color-2-300: lighten($color-2, 8%);
+$color-2-400: darken($color-2, 5%);
+$color-2-500: darken($color-2, 10%);
+$color-2-600: darken($color-2, 15%);
+$color-2-800: darken($color-2, 20%);
+
+// Color 3
+$color-3-50: lighten($color-3, 20%);
+$color-3-100: lighten($color-3, 16%);
+$color-3-200: lighten($color-3, 12%);
+$color-3-300: lighten($color-3, 8%);
+$color-3-400: darken($color-3, 5%);
+$color-3-500: darken($color-3, 10%);
+$color-3-600: darken($color-3, 15%);
+$color-3-800: darken($color-3, 20%);
