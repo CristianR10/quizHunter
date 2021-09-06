@@ -22,8 +22,11 @@ header img {
 
 .hxhBlock {
   border-radius: 5px;
-  border: 1px solid;
+  border: 1px solid #334756;
   padding: 1.5rem;
+}
+.hxhBlock__result {
+  display: none;
 }
 
 .hXhArrow {
@@ -46,11 +49,20 @@ form div {
 }
 
 main {
-  height: 80vh;
+  display: flex;
+  justify-content: center;
 }
 
 footer {
   text-align: center;
+}
+
+@media (min-width: 768px) {
+  .hXhArrow,
+.hxhBlock {
+    width: 100%;
+    max-width: 60vw;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */
