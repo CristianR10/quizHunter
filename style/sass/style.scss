@@ -1,2 +1,53 @@
-@import '$cores.scss';
-@import '$mediaQ.scss';
+@import "$cores.scss";
+@import "$mediaQ.scss";
+
+body {
+	background: $color-1;
+}
+* {
+	color: #fff;
+}
+header {
+	text-align: center;
+	padding: 3rem 0;
+	img {
+		width: 156px;
+		height: auto;
+	}
+}
+.hXhArrow {
+	i {
+		padding-right: 1rem;
+		cursor: pointer;
+	}
+}
+.hxhBlock {
+	border-radius: 5px;
+	border: 1px solid;
+	padding: 1.5rem;
+}
+.hXhArrow {
+	margin-bottom: 20px;
+}
+form {
+	.hXhBtn {
+		background: $color-2;
+		width: 100%;
+		margin-top: 34px;
+		border: 0;
+		height: 38px;
+		border-radius: 5px;
+		&:hover {
+			background: $color-2-300;
+		}
+	}
+	div {
+		margin-top: 0.5rem;
+	}
+}
+main {
+	height: 80vh;
+}
+footer {
+	text-align: center;
+}

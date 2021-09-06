@@ -1,0 +1,56 @@
+body {
+  background: #082032;
+}
+
+* {
+  color: #fff;
+}
+
+header {
+  text-align: center;
+  padding: 3rem 0;
+}
+header img {
+  width: 156px;
+  height: auto;
+}
+
+.hXhArrow i {
+  padding-right: 1rem;
+  cursor: pointer;
+}
+
+.hxhBlock {
+  border-radius: 5px;
+  border: 1px solid;
+  padding: 1.5rem;
+}
+
+.hXhArrow {
+  margin-bottom: 20px;
+}
+
+form .hXhBtn {
+  background: #334756;
+  width: 100%;
+  margin-top: 34px;
+  border: 0;
+  height: 38px;
+  border-radius: 5px;
+}
+form .hXhBtn:hover {
+  background: #425c70;
+}
+form div {
+  margin-top: 0.5rem;
+}
+
+main {
+  height: 80vh;
+}
+
+footer {
+  text-align: center;
+}
+
+/*# sourceMappingURL=style.css.map */
