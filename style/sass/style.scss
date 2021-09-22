@@ -1,17 +1,32 @@
 @import "$cores.scss";
 @import "$mediaQ.scss";
-
-body {
-	background-image: url(/img/giuseppe-fanelli-second-shot.jpg);
-	overflow: hidden;
-}
-
 * {
 	color: #fff;
 }
+
+body {
+	background-image: url(/img/giuseppe-fanelli-second-shot.jpg);
+	// overflow: hidden;
+}
+
+.hxhProgress {
+    height: 5px;
+    position: fixed;
+    left: 0;
+    top: 0;
+    right: 0;
+
+	&__bar {
+		background-color: #00FF00;
+		height: 100%;
+		transition: all ease .5s;
+	}
+}
+
 header {
 	text-align: center;
 	padding: 3rem 0;
+
 	img {
 		width: 156px;
 		height: auto;
@@ -30,6 +45,7 @@ form {
 	ul {
 		list-style: none;
 		padding: 0;
+
 		li {
 			border: 1px solid #fff;
 			border-radius: 5px;
@@ -41,8 +57,20 @@ form {
 				background-color: rgba(255, 255, 255, 0.5);
 				color: #000;
 			}
+
+			span {				
+				color: #fff;
+				border: 1px solid #fff;
+				border-radius: 26px;
+				padding: 2px 8px;
+				margin-right: 10px;
+			}
 		}
 	}
+}
+
+.hxhBlock__result{
+	display: none;
 }
 
 footer {
