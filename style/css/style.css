@@ -1,70 +1,98 @@
 * {
-  color: #fff;
+	color: #fff;
 }
 
 body {
-  background-image: url(/img/giuseppe-fanelli-second-shot.jpg);
+	background-image: url(/img/giuseppe-fanelli-second-shot.jpg);
 }
 
 .hxhProgress {
-  height: 5px;
-  position: fixed;
-  left: 0;
-  top: 0;
-  right: 0;
+	height: 5px;
+	position: fixed;
+	left: 0;
+	top: 0;
+	right: 0;
 }
 .hxhProgress__bar {
-  background-color: #00FF00;
-  height: 100%;
-  transition: all ease 0.5s;
+	background: #0500ff;
+	background: linear-gradient(135deg, #0500ff 0%, rgba(0, 255, 240, 0.81) 80%);
+	background: -webkit-linear-gradient(
+		135deg,
+		#0500ff 0%,
+		rgba(0, 255, 240, 0.81) 80%
+	);
+	background: -moz-linear-gradient(
+		135deg,
+		#0500ff 0%,
+		rgba(0, 255, 240, 0.81) 80%
+	);
+
+	height: 100%;
+	transition: all ease 0.5s;
 }
 
 header {
-  text-align: center;
-  padding: 3rem 0;
+	text-align: center;
+	padding: 3rem 0;
 }
 header img {
-  width: 156px;
-  height: auto;
+	width: 156px;
+	height: auto;
 }
 
 .hxhBlock {
-  border-radius: 5px;
-  border: 1px solid #334756;
-  padding: 1.5rem;
-  backdrop-filter: blur(5px);
+	border-radius: 5px;
+	border: 1px solid #334756;
+	padding: 1.5rem;
+	backdrop-filter: blur(5px);
 }
 
 form ul {
-  list-style: none;
-  padding: 0;
+	list-style: none;
+	padding: 0;
 }
 form ul li {
-  border: 1px solid #fff;
-  border-radius: 5px;
-  padding: 15px;
-  margin: 15px 0;
-  cursor: pointer;
-  transition: 0.3s all ease-in-out;
+	border: 1px solid #fff;
+	border-radius: 5px;
+	padding: 15px;
+	margin: 15px 0;
+	cursor: pointer;
+	transition: 0.3s all ease-in-out;
 }
 form ul li:hover {
-  background-color: rgba(255, 255, 255, 0.5);
-  color: #000;
+	background-color: rgba(255, 255, 255, 0.5);
+	color: #000;
 }
 form ul li span {
-  color: #fff;
-  border: 1px solid #fff;
-  border-radius: 26px;
-  padding: 2px 8px;
-  margin-right: 10px;
+	color: #fff;
+	border: 1px solid #fff;
+	border-radius: 26px;
+	padding: 2px 8px;
+	margin-right: 10px;
 }
 
 .hxhBlock__result {
-  display: none;
+	display: none;
 }
 
 footer {
-  text-align: center;
+	text-align: center;
+}
+button {
+	box-shadow: inset 0px 1px 0px 0px #97c4fe;
+	background: linear-gradient(to bottom, #3d94f6 5%, #5b78a8 100%);
+	background-color: #3d94f6;
+	border-radius: 6px;
+	border: 1px solid #337fed;
+	display: inline-block;
+	cursor: pointer;
+	color: #ffffff;
+	font-family: Arial;
+	font-size: 15px;
+	font-weight: bold;
+	padding: 6px 24px;
+	text-decoration: none;
+	text-shadow: 0px 1px 0px #1570cd;
 }
 
 /*# sourceMappingURL=style.css.map */
